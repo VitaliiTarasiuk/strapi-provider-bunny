@@ -49,7 +49,7 @@ const init = ({ api_key, storage_zone, pull_zone, hostname, upload_path }) => {
           },
           maxContentLength: 250 * 1024 * 1024,
           maxBodyLength: 250 * 1024 * 1024,
-          timeout: 3 * 60 * 1000,
+          timeout: 10 * 60 * 1000,
         },
       );
 
